@@ -1,4 +1,4 @@
-h1{
+h1 {
   width: 200px;
   height: 200px;
   font-size: 30px;
@@ -13,7 +13,7 @@ h1{
 
 }
 
-button{
+button {
   margin: 10px;
   font-size: 20px;
   padding: 10px 30px;
