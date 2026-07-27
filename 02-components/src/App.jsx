@@ -1,7 +1,7 @@
 
 import React from 'react'
-import Card from './assets/components/card.jsx'
-import Navbar from './assets/components/navbar.jsx'
+import Card from './components/card.jsx'
+import Navbar from './components/navbar.jsx'
 
 const App = () => {
   return (
