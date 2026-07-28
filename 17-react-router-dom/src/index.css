@@ -1,0 +1,43 @@
+*{
+  color: white;
+}
+
+body{
+  background-color: black;
+}
+
+.container{
+  height: 100%;
+}
+
+.navCont{
+  background-color: rgb(15, 119, 119);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.tags{
+  display: flex;
+  gap: 20px;
+}
+
+h1{
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+button{
+  background-color: rgb(210, 210, 53);
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  margin: 20px;
+}
+
