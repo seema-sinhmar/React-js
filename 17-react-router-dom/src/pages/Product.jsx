@@ -9,6 +9,7 @@ const Product = () => {
         <Link to="/product/men">Men</Link>
         <Link to="/product/women">Women</Link>
       </div>
+      //To See the content inside the Link tag pages
       <Outlet/>
     </div>
   );

@@ -1,5 +1,3 @@
-import React from "react";
-
 const Men = () => {
   return (
     <div
@@ -9,7 +7,7 @@ const Men = () => {
         top: "50%",
         left: "50%",
         transform: "translate(-50%)",
-        fontWeight: 'bold'
+        fontWeight: "bold",
       }}
     >
       Men's Collecion...

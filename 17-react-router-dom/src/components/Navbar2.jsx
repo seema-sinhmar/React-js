@@ -1,13 +1,15 @@
-import React from "react";
+//Import use navitaion routing
 import { useNavigate } from "react-router-dom";
 
 const Navbar2 = () => {
+  //UseNavigation Routing
     let navigate = useNavigate();
   return (
     <div>
       <div style={{ display: "flex", backgroundColor: "cyan", gap: "30px" }}>
         <button
           onClick={() => {
+            //For home page
             navigate("/");
           }}
         >
@@ -15,6 +17,7 @@ const Navbar2 = () => {
         </button>
         <button
           onClick={() => {
+            //For back page
             navigate(-1);
           }}
         >
@@ -22,6 +25,7 @@ const Navbar2 = () => {
         </button>
         <button
           onClick={() => {
+            //For next page
             navigate(+1);
           }}
         >

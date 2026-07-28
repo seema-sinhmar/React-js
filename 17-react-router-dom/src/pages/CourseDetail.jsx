@@ -1,7 +1,8 @@
-import React from "react";
+//Import Params
 import { useParams } from "react-router-dom";
 
-const CourseDetail = (props) => {
+const CourseDetail = () => {
+  //Params for shown the dyanamic url on the page
     let params = useParams();
   return (
     <div

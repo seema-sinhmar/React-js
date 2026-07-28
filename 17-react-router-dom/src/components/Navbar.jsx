@@ -1,13 +1,13 @@
-import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+//Import link from router dom
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  let Navigate = useNavigate();
-
   return (
     <div className="navCont">
       <h2>shreyians</h2>
       <div className="tags">
+        
+        //Like as anchor tag but they not render the page
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/product">Product</Link>
