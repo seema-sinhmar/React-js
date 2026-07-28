@@ -21,7 +21,7 @@ const App = () => {
       <Navbar />
       <Navbar2 />
 
-      //Container of routes which wrap all the routes
+      {/* //Container of routes which wrap all the routes */}
       <Routes>
         //Basic routing
         <Route path="/" element={<Home />} />
